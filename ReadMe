@@ -9,9 +9,9 @@ This is a banking overview made in vuejs
 
 ###**To run the application**
 
-#go to folder new-vue-app-master containing the package.json file 
+#go to folder new-vue-app containing the package.json file 
 
-#if cloned then do cd new-vue-app-master
+#if cloned then do cd new-vue-app
 
 #run 'npm install' --> for dependency download
 
