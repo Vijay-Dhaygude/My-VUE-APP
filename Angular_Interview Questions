@@ -1,0 +1,129 @@
+Angular Interview concepts : 
+Shared Module for 50 to 60 components
+Flexbox Grid
+Bootstrap css and grid
+Row css classes
+Rest api call from Angular
+E2E flow of filtering and displaying data with rest call
+Material
+How Javascript/HTML/CSS contribute in Angular
+Tree shaking, Virtual DOM, Lazy Loading, Ngrx state and store management , application bootstrapping
+Features of latest Angular 16
+-------------------------------------------------------------------
+Bootstrap Utility Classes related to Flex 
+CSS Grid
+Whats new in the recent Angular version. Explain Standalone component, Signals?
+How Angular component communication works
+Angular Form Dynamic Form. Create Angular Form using the given JSON . If not give create your own JSON. 
+https://accesto.com/blog/angular-dynamic-forms-using-json/
+How Validations works in Template Driven Form and Reactive Form -----
+Angular Lazy loading
+Angular Custom Pipes,
+Custom Directives Real World Examples. 
+Profile default pic - avatar based on gender in custom directive.
+Explain RxJS operators : map,filters 
+NgRx - Explain different selectors --
+HttpInterceptor explain in detail 
+Differentiate Promise & Observable.
+onchange vs input and different event 
+Explain ng-deep , ng-host
+------------------------------------------------------------
+1.Ngrx store with example
+2.How to create common component with logic( for example create common component for checkbox)
+3.Dynamic form with example 
+4.Interceptors
+5.Error handling
+6.Angualr forms
+7.Angular Material
+
+
+
+How to handle error in Angular - 
+GlobalErrorHandlerService
+
+---------------------------------------
+##########################JavaScript-General Expectation##########################
+> Basic concepts
+> Through JavaScript How to start an application from the start explain the process?
+> Async Operations Code 
+>>> How Async operation can be coded?
+> Closure in Java Script
+> Aware of Project
+
+##########################Angular-General Expectation#################################
+What is the latest happening in Angular area? --> Resources should be aware of.
+They should be able to code based on their experience.
+Simple Questions on Concepts
+>>> Authentication
+>>> Routing 
+>>> Subscription --> Subscribe methods used in observable
+>>> Pipes
+##########################Angular##################################
+Q1) How to handle Async responses and code the same? 
+Ans) Code using Promises & Observable  
+Q2) Scenario - There are 5 components that wanted to share the same service.
+a >>>>> how many instances does angular create?
+b >>>>> Through feature module how to restrict a service to be shared?
+Q3) how many types of forms are there in Angular?
+a >>>>> Reactive form & 
+b >>>>> Template driven forms
+Q3A) Difference between them (Reactive form & Template driven forms) and code using form builder and also create a form example
+Q4) Input, output and view child --> These belongs to decorators concept, show some examples/code of decorators. 
+Q5) What does package.lock.json consists of?
+Q6) What is the package.json means?
+Q7) What are the data binding concepts and its types?
+>>>> What is property binding & how to do it in form of code?
+Q8) What is authentication in Angular and how it is achieved?
+Q9) General Question: Complex Task you have faced and have you achieved?
+Q10) How Dependency Injecting service works?
+Follow-up Q>>> Dependency Injecting service into the context it will throw an error... how to handle that Error if that particular service is not available?
+Q11) Difference between - session storage and local storage?
+Q12) What is the cookie?
+Q13) are cookies in front end or backend?
+Q14)Describe complex task that you have worked on?
+Q15) How error handling is done if API response gives bad request? & Write the code?
+------------------------------------------------------------
+
+<mat-radio-button class="radio-label"
+      *ngFor="let value of options"
+      [value]="value[valueProp]"
+      [color]="mode"
+      [labelPosition]="labelPosition"
+      [disabled]="disabled"
+      (change)="onSelectValue($event)">
+      {{value[captionProp]}}
+</mat-radio-button>
+@Input() mode = 'primary';     
+@Input() lab
+@Input() mode = 'primary'; 
+@Input() labelPosition = 'after';
+@Input() name: string; 
+@Input() disabled: boolean;
+@Input() parentFormControl: FormControl;
+@Input() captionProp: string;
+@Input() valueProp: string;
+@Input() checked: boolean;
+@Input() label: string;
+@Input() value: any;
+@Input() options: string[];
+@Input() selectedValue: string;
+has context menu
+----------------------------------------------------------------
+
+myform : FromGroup;
+findRecord : new FromControl();
+this.myfrom.controls.findRecord.valueChanges.Subscribe(value =>
+ console.log(vlaue)
+)
+
+findRecords(){
+   http.get("service")
+    if(typedata == Matched){
+    }
+}
+const string1 = `{variable1}`;
+const divElement = `<div>{employee[i]}</div>`
+const div = document.getElementById('flex-container');
+div.innerHtml += divElement;
+
+
